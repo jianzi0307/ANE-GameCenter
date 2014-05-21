@@ -100,7 +100,9 @@ GameCenterIOSExtension.getLocalPlayerFriends();
 GameCenterIOSExtension 修复了 ANE-Game-Center 在IOS6设备上，关闭排行榜后不再响应任何操作的bug。
 
 App is unresponsive after closing leaderboard in iOS 7 #8
+
 https://github.com/StickSports/ANE-Game-Center/issues/8
 
 App is unresponsive after closing leaderboard\achievements on iOS 6 #13
+
 https://github.com/StickSports/ANE-Game-Center/issues/13
