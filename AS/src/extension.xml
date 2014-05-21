@@ -1,0 +1,16 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+  <id>com.alanogames.ane.GameCenterIOSExtension</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libGameCenterIOSExtension.a</nativeLibrary>
+                <initializer>GameCenterIOSExtensionExtInitializer</initializer>
+                <finalizer>GameCenterIOSExtensionExtFinalizer</finalizer>
+            </applicationDeployment>
+    </platform>
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>
